@@ -1,0 +1,42 @@
+<!content HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+	<body>
+		<form method="post" action="p2.php" name="frm">
+			<h1> Paso de datos de diferentes objetos</h1>
+			<hr/>
+			<p>Texto: 
+				<input type="text" name="texto" value="Texto1">
+			</p>
+			<p>Lista desplegable: 
+				<select name="lista">
+					<option value="Lista v1">Lista t1</option>
+					<option value="Lista v2">Lista t2</option>
+					<option value="Lista v3" selected>Lista t3</option>
+					<option value="Lista v4">Lista t4</option>
+					<option value="Lista v5">Lista t5</option>
+				</select>
+			</p>
+			<p>Radios:<br />
+				<input type="radio" name="radio" value="radio1" />Radio1<br/>
+				<input type="radio" name="radio" value="radio2" />Radio2<br/>
+				<input type="radio" name="radio" value="radio3" />Radio3<br/>
+				<input type="radio" name="radio" value="radio4" />Radio4<br/>
+				<input type="radio" name="radio" value="radio5" checked/>Radio5<br/>
+			</p>
+			<p>Checkbox:<br />
+				<input type="checkbox" name="checkbox1" value="checkbox1" />Checkbox1<br/>
+				<input type="checkbox" name="checkbox2" value="checkbox2" checked/>Checkbox2<br/>
+				<input type="checkbox" name="checkbox3" value="checkbox3" />Checkbox3<br/>
+				<input type="checkbox" name="checkbox4" value="checkbox4" checked/>Checkbox4<br/>
+				<input type="checkbox" name="checkbox5" value="checkbox5" />Checkbox5<br/>
+				<input type="hidden" name="longitudchk" value="5">
+			</p>
+			<p>
+				<input type="submit" value="Ir a p2.php" name="btnSubmit">
+			</p>
+		</form>
+	</body>
+</html>
