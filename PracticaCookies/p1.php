@@ -29,6 +29,12 @@
         <p>
             <input class="btn btn-success" type="submit" value="Ir a p2.php">
         </p>
+        <?php
+            $fecha =time();
+            $fecha = date("d-m-y (H:i:s)");
+            //echo(date("d-m-y (H:i:s)",$fecha). "<br>");
+            echo ($fecha);
+        ?>
     </form>
 </body>
 </html>
